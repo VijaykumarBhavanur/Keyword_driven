@@ -11,6 +11,6 @@ public class FBLoginTest {
 	@Test
 	public void fbLogin() throws IOException {
 		engine = new KeywordEngine();
-		engine.startExecution("Sheet1");
+		engine.startExecution("Sheet1"); //Sheet containing data
 	}
 }
